@@ -1,0 +1,33 @@
+
+/*
+				<!--########################################################-->
+				<!--#############[   Local css for all pages   ]############-->
+				<!--########################################################-->
+*/
+body{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+/*#profile_label{
+	font-size: 15px;
+	font-family: impact;
+}*/
+
+#m-float-left{
+	float: left;
+}
+#m-float-right{
+	float: right;
+}
+
+
+
+
+
+
+
+
+
