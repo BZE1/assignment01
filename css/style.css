@@ -23,6 +23,49 @@ body{
 	float: right;
 }
 
+.sw-me{
+	width: 100%;
+
+}
+
+.sw-width{
+	width: 100%;
+}
+
+/*.custom_div_row-1{
+	margin: 3px;
+	min-height: 300px;
+	background-color: white;
+	text-align: center;
+	font-size: large;
+}
+
+
+
+.custom_div-row-2{
+	margin: 3px;
+	min-height: 300px;
+	background-color: white;
+	text-align: left;
+	font-size: large;
+
+}*/
+
+.sw-gray{
+	background-color: #ed802d;
+}
+
+.sw-font-white{
+	color: white;
+}
+
+.sw-absolute{
+	position: absolute;
+	right: 15px;
+
+}
+
+
 
 
 
