@@ -4,16 +4,24 @@
 		
 	<title>Register Page</title>
 
+
+			<!--########################################################-->
+			<!--#############[  Mobile pages support code  ]############-->
+			<!--########################################################-->
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 	 <meta name="viewport" content="initial-scale=1.25, user-scalable=no">
 
 	<!-- <link rel="stylesheet" type="text/css" href="bootstrap"> -->
 	
-
+			<!--########################################################-->
+			<!--#############[  Bootstrap-4  support code  ]############-->
+			<!--########################################################-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-	
+			<!--########################################################-->
+			<!--#############[        Local CSS Link       ]############-->
+			<!--########################################################-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<!--####[ Refresh page  ]####-->
@@ -37,33 +45,35 @@
 				<!--########################################################-->
 				<!--#############[   Form part of the Script   ]############-->
 				<!--########################################################-->
-				<form> 
+			<form> 
 				<div class="form-group">
 					<!-- Input functions -->
 					<!-- <label>UserName</label> -->
-					<input type="Text" name="username" placeholder="username">
+					<input type="text" name="username" placeholder="type in a username">
 				</div>
 
 				<div class="form-group">
 					<!-- <label>Password</label> -->
-					<input type="password" name="password" placeholder="password">
+					<input type="password" name="password" placeholder="Enter a password">
 				</div>
 				<div class="form-group">
 					<!-- <label>Verify Password</label> -->
-					<input type="password" name="verify-password" placeholder="verify password">
+					<input type="password" name="verify-password" placeholder="verify your password">
 				</div>
-				
-				<div><!-- __________[]  Buttons  ]__________ -->
+			</form>
+
+
+				<!--########################################################-->
+				<!--#############[          buttons            ]############-->
+				<!--########################################################-->
+
+				<div>
 					<a class="btn btn-primary btn-block" href="Profile/profile.html">Register</a>
 					<a class="btn btn-danger btn-block" href="login.html">Cancel</a>
 				</div>
-				<br>
 
 
-
-
-				<br>
-		</div>
+		</div> <!-- contaianer end -->
 
 </body>
 </html>
