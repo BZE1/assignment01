@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<title>Page New</title>
+		<title>New Page</title>
 
+				
+				<!--########################################################-->
+				<!--#############[   Support for Mobile sites  ]############-->
+				<!--########################################################-->
+			 <meta name="apple-mobile-web-app-capable" content="yes">
+			 <meta name="apple-mobile-web-app-status-bar-style" content="black">
+			 <meta name="viewport" content="initial-scale=1.25, user-scalable=no">
 
+			 
 				<!--########################################################-->
 				<!--#############[   Bootstrap support code    ]############-->
 				<!--########################################################-->
@@ -18,7 +26,7 @@
 
 
 			<!-- Refresh every 5 minutes -->
-		 <!-- <meta http-equiv="refresh" content="5">   -->
+		 <meta http-equiv="refresh" content="5">   
 
 
 				<!--########################################################-->
@@ -44,47 +52,72 @@
 				<!--#############[         Nave bar            ]############-->
 				<!--########################################################-->
 
-		<!-- ###########################[ ROW ]############################### -->
-			<nav class="row navbar navbar-dark bg-primary fixed-top">
 
-				<div class="col-sm-12">
-						<div class="container-fluid">
-							
-							<a class="navbar navbar-brand sw-font-red" href="#">New Page</a>
-							<div>
-								<!-- <a class="sw-font-white" href="#"></a> -->
-								<i class="fas fa-cheveron-left"></i>
-								<i class="fas fa-checkmark-right"></i>
-								<i class="icon-caret-left"></i>
-							</div>
 
-						</div>
-				</div>
+			<!--########################################################-->
+	<nav class="navbar navbar-dark bg-primary fixed-top">  <!--bg-primary-->
 
-			</nav>
+		<a href="../Profile/profile.html"
+		class="sw-font-white"><i class="fas fa-chevron-left"></i></a>
+
+
+		<div class="sw-80-width">
+			<a class="float-left navbar-brand" href="website-list.html"><strong>New Page</strong></a>
+		</div>
+
+
+		<a href="website-new.html"
+		class="sw-font-white"><i class="fas fa-plus"></i></a>	
+
+	</nav>
+	<!--########################################################-->
+
 
 				<!--########################################################-->
 				<!--#############[          Widgets            ]############-->
 				<!--########################################################-->
 
-		<!-- ###########################[ ROW ]############################### -->
+	<div class="container">
+		<form> 
+
+
+				<div class="form-group">
+										<!-- lable -->
+					<label class="font-weight-bold"   for="website-name">Name</label>
+					<input class="form-control" type="text" name="Title" placeholder="Page Name">
+				</div>
+
+				<div class="form-group">
+										<!-- lable -->
+					<label class="font-weight-bold"   for="website-name">Title</label>
+					<input class="form-control" type="text" name="Title" placeholder="Page Title">
+
+				</div>
+		
+				
+		</form>
+
+
+
+
+
+	</div>
+
+
+	<nav class="navbar navbar-dark bg-primary sw-gray fixed-bottom">
+				<div class="sw-me">
+					<a href="../User/profile.html" class="sw-font-white float-right"><i class="fas fa-user "></i></a>
+				</div>
+			</nav>
+
+	
 
 
 
 			
 
-				<div class="col-sm-12">
-						<div class="container-fluid">
-
-
-							
-							
 				
-
-						</div>
-				</div>
-
-			</nav>
+		
 
 
 
