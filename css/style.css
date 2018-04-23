@@ -61,6 +61,10 @@ body{
 	background-color: #ed802d;
 }
 
+.sw_w_c{
+	background-color: #339966;
+}
+
 .sw-font-white{
 	color: white;
 }
@@ -69,6 +73,10 @@ body{
 	position: absolute;
 	right: 15px;
 
+}
+
+.sw_text_color_blk{
+	color:black;
 }
 
 
